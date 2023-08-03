@@ -6,9 +6,8 @@ import Projects from "./components/projects/Projects";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import { ThemeProvider } from "./context/ThemeContext";
-import 'bulma/css/bulma.min.css';
-
-// import "./App.scss";
+import "bulma/css/bulma.min.css";
+import "./App.scss";
 
 function App() {
   return (
