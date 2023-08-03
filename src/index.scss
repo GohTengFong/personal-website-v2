@@ -1,0 +1,164 @@
+// @import "../../node_modules/bulma/bulma.sass";
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Global Variables */
+$dark-text: white;
+$dark-bg: black;
+
+:root {
+  &.dark {
+    background-color: $dark-bg;
+
+    /* Texts */
+    .title,
+    .subtitle,
+    .section-header,
+    h2,
+    .dark-mode-icon,
+    .tippy {
+      color: $dark-text;
+    }
+
+    /* Section Headers */
+    .header-line {
+      width: 100%;
+      height: 3px;
+      background: white;
+      opacity: 0.3;
+    }
+
+    /* Icons */
+    .social-icon {
+      color: white;
+    }
+  }
+}
+
+/* App */
+.app {
+  min-width: 300px;
+  overflow-x: hidden;
+}
+
+/* Projects */
+.card {
+  background-color: inherit;
+}
+
+/* NavBar */
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  background-color: inherit;
+
+  .navbar-menu.is-active {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+.small-screen-wrapper {
+  display: none;
+}
+
+/* Home */
+.home {
+  margin: 0 auto;
+  max-width: 80%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+
+  .title {
+    color: black;
+  }
+  .subtitle {
+    color: black;
+  }
+}
+
+/* Skills */
+.row1,
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  i {
+    font-size: 4rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Projects */
+.project-image {
+  margin-bottom: 3rem;
+}
+
+.tech {
+  margin-bottom: 2rem;
+
+  i {
+    font-size: 3rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Section Headers */
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+
+  .section-title {
+    font-size: 5.5rem;
+    font-weight: 900;
+    text-align: end;
+  }
+}
+
+.header-line {
+  width: 100%;
+  height: 3px;
+  background: black;
+  opacity: 0.3;
+}
+
+@media (max-width: 1024px) {
+  .section-title {
+    font-size: 3.25rem !important;
+    font-weight: 900;
+    text-align: end;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 4.5rem !important;
+    font-weight: 900;
+    text-align: end;
+  }
+}
+
+/* Icons */
+.social-icon {
+  color: inherit;
+}
+

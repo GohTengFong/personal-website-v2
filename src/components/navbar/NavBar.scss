@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  .small-screen-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .small-screen-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .small-screen-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .darkmode-wrapper {
+    display: none;
+  }
+}

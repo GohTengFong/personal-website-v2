@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .row1,
+  .row2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .row1,
+  .row2 {
+    flex-wrap: wrap;
+  }
+}
