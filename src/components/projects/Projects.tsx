@@ -104,10 +104,16 @@ export default function Projects() {
                     </Tippy>
                   </div>
                   <footer className="card-footer">
-                    <a href="" className="card-footer-item">
+                    <a
+                      href="https://github.com/Elijah5399/healthcare-ai-chatbot"
+                      className="card-footer-item"
+                    >
                       <BsGithub size={40} />
                     </a>
-                    <a href="http://35.197.150.195:3000/" className="card-footer-item">
+                    <a
+                      href="http://35.197.150.195:3000/"
+                      className="card-footer-item"
+                    >
                       <AiOutlineExport size={40} />
                     </a>
                   </footer>
