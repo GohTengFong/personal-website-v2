@@ -107,7 +107,7 @@ export default function Projects() {
                     <a href="" className="card-footer-item">
                       <BsGithub size={40} />
                     </a>
-                    <a href="" className="card-footer-item">
+                    <a href="http://35.197.150.195:3000/" className="card-footer-item">
                       <AiOutlineExport size={40} />
                     </a>
                   </footer>
@@ -145,7 +145,7 @@ export default function Projects() {
                   </div>
                   <footer className="card-footer">
                     <a
-                      href="https://github.com/GohTengFong/personal-website"
+                      href="https://github.com/GohTengFong/personal-website-v1"
                       className="card-footer-item"
                     >
                       <BsGithub size={40} />
