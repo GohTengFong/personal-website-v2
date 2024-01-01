@@ -5,6 +5,7 @@ import { Reveal } from "../revealanimation/RevealAnimation";
 import HealthCareAIChatbot from "../images/healthcare-ai-chatbot.png";
 import PersonalWebsiteV1 from "../images/personal-website-v1.png";
 import StockPricePredictor from "../images/stock-price-predictor.png";
+import RestFULAPIMicroservice from "../images/restful-api-microservice.png"
 import Tippy from "@tippyjs/react";
 import "tippy.js/animations/shift-away.css";
 import { motion } from "framer-motion";
@@ -224,6 +225,60 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <div className="column is-one-half-desktop is-half-tablet is-one-third-widescreen">
+              <div className="card">
+                <div className="card-image">
+                  <figure className="image is-3by2">
+                    <img
+                      src={RestFULAPIMicroservice}
+                      alt="RestFUL API Microservice"
+                    />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <p className="title is-3 is-spaced has-text-centered">
+                    RestFUL API Microservice
+                  </p>
+                  <p className="subtitle is-5">
+                    This microservice supports authentication and basic CRUD APIs for an e-commerce website.
+                  </p>
+                  <div className="tech">
+                    <Tippy
+                      className="tippy"
+                      placement="bottom"
+                      content={"Python"}
+                      delay={50}
+                      animation="shift-away"
+                    >
+                      <motion.i
+                        className="devicon-python-plain colored"
+                        whileHover={{ scale: 1.2 }}
+                      />
+                    </Tippy>
+                    <Tippy
+                      className="tippy"
+                      placement="bottom"
+                      content={"FastAPI"}
+                      delay={50}
+                      animation="shift-away"
+                    >
+                      <motion.i
+                        className="devicon-fastapi-plain colored"
+                        whileHover={{ scale: 1.2 }}
+                      />
+                    </Tippy>
+                  </div>
+                  <footer className="card-footer">
+                    <a
+                      href="https://github.com/GohTengFong/restful-api-microservice"
+                      className="card-footer-item"
+                    >
+                      <BsGithub size={40} />
+                    </a>
+                  </footer>
+                </div>
+              </div>
+            </div>
         </section>
       </section>
     </div>
